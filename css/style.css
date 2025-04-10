@@ -1,0 +1,587 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+
+}
+ul {
+    list-style: none;
+}
+li {
+    list-style: none;
+}
+
+
+
+/* Nav Part Start */ 
+/* #nav-bar {
+    background-color: #1C1E53;
+    color: white;
+} */
+#nav-bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    padding: 31px 0; 
+}
+
+.nav-main {
+    width: 100%;
+    height: 92px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: "Poppins", serif;
+   
+}
+.nav-tab ul {
+    display: flex;
+    align-items: center;
+}
+.nav-tab ul li {
+    margin-right: 20px;
+}
+.nav-tab ul li a {
+    color: white;
+}
+.nav-tab ul li a:hover {
+    color: #FF9600;
+}
+
+#banner{
+    /* position: relative; */
+    background-image: url(../images/nav-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    content: '';
+    width: 100%;
+}
+ 
+
+.banner-text h1 {
+    margin-top: 150px;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 100%;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 1px;
+     
+}
+
+#banner {
+    background-image: url(../images/nav-background.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner_bottom_image {
+    width: 100%;
+    margin-bottom: -9px;
+}
+/*  */
+
+.join_us_left h5 {
+    font-family: Yellowtail;
+    font-weight: 400;
+    font-size:30px;
+    line-height: 100%; 
+    margin-bottom: 16px;
+    margin-top:10px;
+    color: #14B9F1;
+}
+
+.join_us_left h2 {
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    font-size: 54px;
+    line-height: 100%; 
+    width: 595px;
+  
+}
+.join_us_left .line {
+    margin-top: 29px;
+    margin-bottom: 48px;
+}
+.join_us_left h6 {
+    font-family: IBM Plex Sans;
+    margin-bottom: 35px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%; 
+    width: 501px;
+}
+.join_us_left p {
+    font-family: IBM Plex Sans;
+    margin-bottom: 46px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%; 
+    width: 438px;
+    margin-left: 25px;
+}
+.btn-btn-outline-success {
+padding: 15px 35px;
+background-color: #FF9600;
+border: solid #FF9600 1px;
+}
+.join_us_main {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+.join_us_right {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+/* .col-lg-3 {
+    flex: 0 0 auto;
+    width:50%;
+} */
+.join-us-1 {
+width: 274px;
+height: 622px;
+
+}
+.join-us-2 {
+    width: 230px;
+    height:512px;
+    margin-top: 31px;
+    
+    }
+/* .join-us-2 {
+    margin-left: 500px;
+} */
+/* .col-lg-6 {
+    flex: 0 0 auto;
+    width: 43%;
+    margin-top: none;
+} */
+ /* retins */
+ /* .rating-main{
+    margin-top: 110px ;
+    margin-bottom:49px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 120px;
+    justify-content:space-evenly;
+ }
+ /* Non-managable part */
+ /* .row>* {
+    padding-right:none;
+    padding-left:none;
+   margin-top:none;
+} */
+ /* Non-managable part */
+ /* .rating-main-images {
+    margin-left: 20px;
+ } */
+ /* .ten-image {
+    background-color: #F4F2BF;
+   padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 40px;
+    border-radius: 10px;
+    position: relative;
+  
+ } */
+
+ /* .ten-image p {
+    width: 152px;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    margin-top: 5px;
+ }
+ .rating-image-design-top {
+    top: 0;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 16px;
+ }
+ .rating-image-design-bottom  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 16px;
+ } */
+/* ten image 2 start*/
+/* .row>* {
+    padding-right: 0; 
+     padding-left:0;
+  
+} */
+/* .ten-image-2 {
+    background-color: #F4F2BF;
+   padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 35px;
+    padding-right:40px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 28px;
+    margin-right: 28px;
+  
+ }
+
+ .ten-image-2 p {
+    width:200px;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    margin-top: 5px;
+ }
+ .rating-image-design-top {
+    top: 0;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 16px;
+ }
+ .rating-image-design-bottom  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 16px;
+ } */
+/* ten image 2 end */
+
+/* ten image 3 start*/
+/* .ten-image-3 {
+    background-color: #F4F2BF;
+   padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 35px;
+    padding-right:30px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 28px;
+    margin-right: 28px;
+  
+ }
+
+ .ten-image-3 p {
+    width: 152px;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    margin-top: 5px;
+ }
+ .rating-image-design-top {
+    top: 0;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+   margin-left: 16px;
+ }
+ .rating-image-design-bottom  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 16px;
+ } */
+/* ten image 3 end */
+
+/* ten image 4 start*/
+/* .ten-image-4 {
+    background-color: #F4F2BF;
+   padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 35px;
+    padding-right:30px;
+    border-radius: 10px;
+    position: relative;
+    margin-left: 28px;
+    margin-right: 28px;
+  
+ }
+
+ .ten-image-4 p {
+    width: 152px;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+    margin-top: 5px;
+ }
+ .rating-image-design-top {
+    top: 0;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 16px;
+ }
+ .rating-image-design-bottom  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 16px;
+ } */ 
+/* ten image 4 end */
+
+#rating {
+    margin-top: 30px;
+    margin-bottom:30px;
+    margin-left: 148px;
+    margin-right:172px;
+}
+.rating-image-design-top {
+    top: 0;
+    position: absolute;
+    left: 0;
+    margin-top: 10px;
+    margin-left: 16px;
+ }
+ .rating-image-design-bottom  {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 10px;
+    margin-right: 16px;
+ }
+.rating-main {
+    display: flex;
+    justify-content: center; 
+    align-items: stretch; 
+    gap: 20px; 
+    flex-wrap: wrap; 
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.card {
+    width: 18rem; /* Ensures all cards have the same width */
+    flex-grow: 1; /* Makes cards flexible */
+    display: flex;
+    justify-content: center;
+}
+
+.ten-image,
+.ten-image-2,
+.ten-image-3,
+.ten-image-4 {
+    background-color: #F4F2BF;
+    padding: 40px;
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+ /* retins */
+
+
+ /* extreme-sports */
+ #extreme-sports{
+    background-color:#22647A;
+ }
+ .extreme-sports-top h5 {
+    font-family: Yellowtail;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 100%; 
+    margin-bottom: 16px;
+    margin-top:120px;
+    margin-left: 20px;
+    color: #FF9600;
+ }
+ .extreme-sports-top h2 {
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    font-size:54px;
+    line-height: 100%; 
+    margin-bottom: 34px;
+    margin-left: 20px;
+    
+    color: #F1DDDD;
+ }
+ .extreme-sports-top-image {
+    width: 80px;
+    margin-bottom: 143px;
+    margin-top:34px;
+    margin-left: 20px;
+ }
+ .extreme-sports-bottom-right p {
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%; 
+    margin-bottom: 234px;
+    color: #F4EEEE;
+ }
+ /* Image Part */
+ #image-part{
+    margin-top: 98px;
+ }
+ .card {
+    --bs-card-border-width: none;
+}
+.card-text:last-child {
+    margin-bottom: 55px;
+}
+/* card-body-1 */
+.card-body-1 h5{
+   color: #FF9600;
+   margin-top: 22px;
+   margin-bottom: 11px;
+   text-align: center;
+    font-family: IBM Plex Sans;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 100%;
+
+}
+.card-body-1 p{
+color: #000000;
+text-align: center;
+    font-family: IBM Plex Sans;
+    font-family: IBM Plex Sans;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+}
+/* card-body-1 */
+/* card-body-2 */
+.card-body-2 h5{
+    color: #A69393;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    text-align: center;
+     font-family: IBM Plex Sans;
+     font-weight: 700;
+     font-size: 30px;
+     line-height: 100%;
+ 
+ }
+ .card-body-2 p{
+ color: #000000;
+ text-align: center;
+     font-family: IBM Plex Sans;
+     font-family: IBM Plex Sans;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 100%;
+ }
+ /* card-body-2 */
+ /* card-body-3 */
+.card-body-3 h5{
+    color: #1E1C1C;
+    margin-top: 22px;
+    /* margin-bottom: 11px; */
+    text-align: center;
+     font-family: IBM Plex Sans;
+     font-weight: 700;
+     font-size: 30px;
+     line-height: 100%;
+ 
+ }
+ .card-body-3 p{
+    color: #000000;
+    text-align: center;
+     font-family: IBM Plex Sans;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 100%;
+ }
+ /* card-body-3 */
+ /* card-body-4 */
+.card-body-4 h5{
+    color: #F5F2F2;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    text-align: center;
+     font-family: IBM Plex Sans;
+     font-weight: 700;
+     font-size: 30px;
+     line-height: 100%;
+ 
+ }
+ .card-body-4 p{
+ color: #000000;
+ text-align: center;
+     font-family: IBM Plex Sans;
+     font-family: IBM Plex Sans;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 100%;
+ }
+ /* card-body-4 */
+ /* card-body-5 */
+.card-body-5 h5{
+    color: #161414;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    text-align: center;
+     font-family: IBM Plex Sans;
+     font-weight: 700;
+     font-size: 30px;
+     line-height: 100%;
+ 
+ }
+ .card-body-5 p{
+ color: #000000;
+ text-align: center;
+     font-family: IBM Plex Sans;
+     font-weight: 400;
+     font-size: 18px;
+     line-height: 100%;
+ }
+ /* card-body-5 */
+ /* card-body-6 */
+.card-body-6 h5{
+    color: #F5F2F2;
+    margin-top: 22px;
+    margin-bottom: 11px;
+    text-align: center;
+     font-family: IBM Plex Sans;
+     font-weight: 700;
+     font-size: 30px;
+     line-height: 100%;
+ 
+ }
+ .card-body-6 p{
+    color: #000000;
+    text-align: center;
+        font-family: IBM Plex Sans;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 100%;
+ }
+ /* card-body-6 */
+
+
+ /* Bottom text */
+ .bottom-text h2{
+    width: 872px;
+    color: #000000;
+    margin-top: 10px;
+    margin-bottom: 271px;
+    text-align: center;
+    font-family: Arizonia;
+    font-weight: 400;
+    font-size: 160px;
+    line-height: 100%;
+
+
+ }
+ /* Bottom text */
